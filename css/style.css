@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+/* Doodle Stage */
+#stage {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488095/baconStrip.svg);
+  height: 268px;
+  width: 600px;
+  -webkit-animation: bounceInUp 1s 1;
+          animation: bounceInUp 1s 1;
+}
+
+body {
+  background: #8B0000;
+}
+
+h1 {
+  font-size: 170px;
+  text-align: center;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  -webkit-animation: flipInY 3s 1;
+          animation: flipInY 3s 1;
+}
+
+img {
+  width: 15%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+div:hover img {
+  -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  color: maroon;
+}

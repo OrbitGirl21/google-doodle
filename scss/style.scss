@@ -1,0 +1,39 @@
+// External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* Doodle Stage */
+#stage {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488095/baconStrip.svg);
+  height: 268px;
+  width: 600px;
+  animation:bounceInUp 1s 1;
+}
+
+body{
+  background:	#8B0000;
+}
+
+h1{
+  font-size:170px;
+  text-align:center;
+  color:white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  animation: flipInY 3s 1;
+}
+
+img {
+  width:15%;  
+  transition: transform 1s;
+}
+
+// Last
+div:hover img {
+  transform: scale(1) rotate(360deg);
+}
+
+//button styling
+button{
+  font-family: 'Poppins', sans-serif;
+  color:maroon;
+}
