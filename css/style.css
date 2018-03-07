@@ -7,15 +7,19 @@
   -webkit-animation: bounceInUp 1s 1;
           animation: bounceInUp 1s 1;
 }
-
-body {
-  background: #8B0000;
+body{
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488095/cuttingboard-01.svg);
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
   font-size: 170px;
   text-align: center;
-  color: white;
+  color: tan;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   -webkit-animation: flipInY 3s 1;
           animation: flipInY 3s 1;
