@@ -21,8 +21,8 @@ h1 {
   text-align: center;
   color: tan;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  -webkit-animation: flipInY 3s 1;
-          animation: flipInY 3s 1;
+  -webkit-animation: rotateInDownLeft 3s 1;
+          animation: rotateInDownLeft 3s 1;
 }
 
 img {
